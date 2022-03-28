@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 2%;
+    background-color: rgb(255, 254, 236);
+    font-family: 'Shadows Into Light', cursive;
+}
+.section1 {
+    width: 20%;
+    float: left;
+    
+}
+.section2 {
+    width: 70%;
+    float: left;
+    padding: 2%;
+    margin-left: 5%;
+    color: #270317;
+  
+    
+}
+img {
+    border-radius: 45%;
+}
+.tab {
+    overflow: hidden;
+    background-color: #fac6c6;
+    border-radius: 20px;
+    
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'Shadows Into Light', cursive;
+    border-radius: 20px;
+    
+}
+.pastelgreen {
+    background-color: rgb(253, 246, 144);
+
+}
+.pastelgreen:hover{
+    background-color: rgb(160, 248, 182);
+
+}
+
+.pastelyellow {
+    background-color: rgb(253, 246, 144);
+
+}
+.pastelyellow:hover{
+    background-color: rgb(250, 241, 120);
+
+}
+
+.about-section1 {
+    line-height: 1.8;
+    width: 50%;
+    float: left;
+    
+}
+.about-section2 {
+    line-height: 1.8;
+    width: 50%;
+    float: left;
+    color: blueviolet;
+ 
+    
+}
+.btn {
+    background-color: rgb(248, 225, 225);
+    border: none;
+    border-radius: 50%;
+    color: rgb(250, 227, 245);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .section1, .section2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0%;
+        margin-left: 0%;
+    }
+    .about-section1, .about-section2 {
+        height: auto;
+        text-align: left;
+    }
+    
+
+}
+/* .Yo{ 
+    overflow: idden visible;
+     background-color: #f7e9e9;
+    border-radius: 20px;
+
+} */
